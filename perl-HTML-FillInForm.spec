@@ -17,6 +17,7 @@ BuildRequires:	perl-devel
 BuildRequires:	perl-CGI
 BuildRequires:	perl-HTML-Parser
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module automatically inserts data from a previous HTML form into the HTML
