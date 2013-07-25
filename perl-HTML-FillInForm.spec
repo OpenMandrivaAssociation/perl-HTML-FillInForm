@@ -1,15 +1,15 @@
 %define upstream_name	 HTML-FillInForm
-%define upstream_version 2.00
+%define upstream_version 2.1
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Version:	%perl_convert_version 2.1
+Release:	1
 
 Summary:	Populates HTML Forms with data
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/authors/id/T/TJ/TJMATHER/HTML-FillInForm-2.1.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(CGI)
@@ -88,4 +88,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Apr 22 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.04-1mdk
 - 1.04
+
 
