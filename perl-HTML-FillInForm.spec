@@ -11,6 +11,7 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}/
 Source0:    http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires: perl(CGI)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(HTML::Parser) >= 3.260.0
 BuildRequires: perl(HTML::TokeParser) >= 3.260.0
